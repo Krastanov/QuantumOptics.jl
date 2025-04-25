@@ -1,5 +1,6 @@
 using Test
-using OrdinaryDiffEq, QuantumOptics
+using QuantumOptics
+using OrdinaryDiffEqLowOrderRK, OrdinaryDiffEqTsit5, OrdinaryDiffEqVerner
 import ForwardDiff as FD
 import Random
 
